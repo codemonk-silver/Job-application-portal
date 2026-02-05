@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Ghost } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
@@ -70,13 +71,15 @@ export default function Home() {
                     height={100}
                     className="object-contain w-50 h-30 absolute right-137 top-30"
                   />
+                  <div className="rounded-2xl z-10 overflow-hidden inline-block">
                   <Image
                     src="/Image 1.png"
                     alt="Hero image"
-                    width={1200}
-                    height={800}
-                    className="object-contain w-190 h-190 z-10 rounded-xl"
+                    width={400}
+                    height={300}
+                    className="object-contain w-190 h-190"
                   />
+                  </div>
                    <Image
                       src="/Rectangle 435.png"
                       alt="Hero image"
@@ -89,8 +92,136 @@ export default function Home() {
                     alt="Hero image"
                     width={100}
                     height={100}
-                    className="object-contain w-50 h-30 absolute left-57 bottom-30"
+                    className="object-contain w-50 h-53 absolute left-70 bottom-35"
                   />
+                  <Image
+                    src="/megaphone.png"
+                    alt="Hero image"
+                    width={100}
+                    height={100}
+                    className="object-contain w-60 h-53 absolute left-65 top-45 z-30"
+                  />
+                </div>
+            </section>
+
+            {/* feature logo */}
+            <section className="mt-[-90]">
+                <div className="flex justify-center gap-30">
+                    <Image
+                    src="/garnier.png"
+                    alt="Feature logo"
+                    width={100}
+                    height={100}
+                    className="object-contain w-30 h-20"
+                  />
+                   <Image
+                    src="/slack.png"
+                    alt="Feature logo"
+                    width={100}
+                    height={100}
+                    className="object-contain w-30 h-20"
+                  />
+                   <Image
+                    src="/udemy.png"
+                    alt="Feature logo"
+                    width={100}
+                    height={100}
+                    className="object-contain w-30 h-20"
+                  />
+                   <Image
+                    src="/google (1).png"
+                    alt="Feature logo"
+                    width={100}
+                    height={100}
+                    className="object-contain w-30 h-20"
+                  />
+                  
+                </div>
+                <div className="flex justify-center mt-3">
+                  <hr className="border-gray-200 w-210 border" />
+                </div>
+            </section>
+
+            {/* widget */}
+            <section className="mt-14">
+                <div className="flex gap-4 justify-center flex-wrap">
+                    <Image
+                    src="/card.png"
+                    alt="Feature logo"
+                    width={200}
+                    height={100}
+                    className="object-contain"
+                  />
+                  <Image
+                    src="/card1.png"
+                    alt="Feature logo"
+                    width={200}
+                    height={100}
+                    className="object-contain"
+                  />
+                  <Image
+                    src="/card2.png"
+                    alt="Feature logo"
+                    width={200}
+                    height={100}
+                    className="object-contain"
+                  />
+                  <Image
+                    src="/card3.png"
+                    alt="Feature logo"
+                    width={200}
+                    height={100}
+                    className="object-contain"
+                  />
+                </div>
+            </section>
+            
+            {/* services */}
+            <section className="mt-8">
+                <div className="w-full min-h-[60vh] flex justify-center">
+                    <div className="flex justify-between gap-0">
+                        <div className="flex items-center">
+                            <div className="flex flex-col max-w-md">
+                            <h1 className="text-5xl font-semibold">Built to Elevate Brands</h1>
+                            <p className="text-[-1rem] leading-tight max-w-sm text-muted-foreground my-4">At Dsign Agency, we offer a blend of creative and technical services — from digital marketing and UI/UX design to graphic design and cybersecurity. Our solutions are built to elevate your brand, engage your audience, and secure your digital assets.</p>
+                            <a className="text-blue-600" href="">Learn More</a>
+                          </div>
+                        </div>
+                        <div className="bg-blue-100 h-[53vh] w-[27vw] rounded-xl relative mt-3">
+                            <div className="absolute top-10 left-[-25]">
+                                <div className="grid grid-cols-2 gap-1">
+                                    <Image
+                                      src="/card4.png"
+                                      alt="Feature logo"
+                                      width={200}
+                                      height={100}
+                                      className="object-contain"
+                                    />
+                                    <Image
+                                      src="/card5.png"
+                                      alt="Feature logo"
+                                      width={200}
+                                      height={100}
+                                      className="object-contain"
+                                    />
+                                    <Image
+                                      src="/card6.png"
+                                      alt="Feature logo"
+                                      width={200}
+                                      height={100}
+                                      className="object-contain"
+                                    />
+                                    <Image
+                                      src="/card7.png"
+                                      alt="Feature logo"
+                                      width={200}
+                                      height={100}
+                                      className="object-contain"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
