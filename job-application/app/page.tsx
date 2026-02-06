@@ -224,6 +224,146 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
+            {/* why choose us */}
+            <section className="py-8">
+                <div className="w-full min-h-[60vh] flex justify-center">
+                    <div className="flex justify-between gap-15">
+                        <div className="relative bg-amber-100 h-[60vh] w-[17vw] rounded-xl basis-1/2">
+                            <div className="absolute top-30 left-[-70] w-full h-full">
+                                <Image
+                                      src="/clay-mockup 1.png"
+                                      alt="Feature logo"
+                                      width={2600}
+                                      height={1400}
+                                      className="object-contain scale-190"
+                                    />
+                            </div>
+                        </div>
+                        <div className="mt-5 space-y-3">
+                            <h1 className="text-4xl font-bold text-gray-800">Why Choose Us?</h1>
+                            <p className="text-sm max-w-md text-gray-500">We combine creativity, strategy, and security to deliver end-to-end digital solutions that help brands grow faster and smarter.</p>
+                            <div className="flex flex-col gap-5">
+                                <div className="flex gap-5 items-center">
+                                    <Image
+                                      src="/icon.png"
+                                      alt="Feature logo"
+                                      width={10}
+                                      height={5}
+                                      className="object-contain scale-210"
+                                    />
+                                    <div className="flex flex-col relative top-5">
+                                    <p className="font-semibold">Quality</p>
+                                    <p className="text-gray-500 text-sm max-w-sm">We deliver high-impact solutions with attention to detail and design precision.</p>
+                                    </div>
+                                </div>
+                                 <div className="flex gap-5 items-center">
+                                    <Image
+                                      src="/icon.png"
+                                      alt="Feature logo"
+                                      width={10}
+                                      height={5}
+                                      className="object-contain scale-210"
+                                    />
+                                    <div className="flex flex-col relative top-5">
+                                    <p className="font-semibold">Communication</p>
+                                    <p className="text-gray-500 text-sm max-w-sm">We keep you in the loop with clear updates and responsive collaboration.</p>
+                                    </div>
+                                </div>
+                                <div className="flex gap-5 items-center">
+                                    <Image
+                                      src="/icon.png"
+                                      alt="Feature logo"
+                                      width={10}
+                                      height={5}
+                                      className="object-contain scale-210"
+                                    />
+                                    <div className="flex flex-col relative top-5">
+                                    <p className="font-semibold">Reliabilty</p>
+                                    <p className="text-gray-500 text-sm max-w-sm">Count on us to meet deadlines and exceed expectations every time.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* map */}
+            <section className="bg-blue-100 w-full min-h-[80vh]">
+              <div className="flex justify-center pt-7">
+                <h1 className="text-4xl font-semibold max-w-md text-center">Connecting Globally, Delivering Locally</h1>
+              </div>
+              <div className="flex justify-center items-center h-screen">
+                  <Image
+                        src="/map.png"
+                        alt="map"
+                        width={400}
+                        height={300}
+                        className="object-contain scale-210"
+                  />
+              </div>
+              <div className="flex justify-center w-full">
+              <div className="grid grid-cols-4 mt-[-80] max-w-2xl gap-10">
+                   <Image
+                      src="/card8.png"
+                      alt="Feature logo"
+                      width={300}
+                      height={150}
+                      className="object-contain scale-210"
+                     />
+                     <Image
+                      src="/card9.png"
+                      alt="Feature logo"
+                      width={300}
+                      height={150}
+                      className="object-contain scale-210"
+                     />
+                     <Image
+                      src="/card10.png"
+                      alt="Feature logo"
+                      width={300}
+                      height={150}
+                      className="object-contain scale-210"
+                     />
+                     <Image
+                      src="/card11.png"
+                      alt="Feature logo"
+                      width={300}
+                      height={150}
+                      className="object-contain scale-210"
+                     />
+              </div>
+              </div>
+            </section>
+
+            {/* testimonial */}
+            <section className="pt-5">
+                <div className="flex justify-center text-center">
+                  <div className="flex flex-col max-w-[29rem]">
+                      <h1 className="text-5xl font-semibold">What Our Clients Say About Us</h1>
+                      <p className="text-md text-gray-400 mt-4">Event madness gathering innoies,& tech enthusiasts in Speced. do more informations.</p>
+                  </div>
+                </div>
+                <div className="flex justify-center mt-30">
+                    <Image
+                      src="/Fram.png"
+                      alt="Feature logo"
+                      width={400}
+                      height={350}
+                      className="object-contain scale-210"
+                     />
+                </div>
+            </section>
+
+            {/* contact */}
+            <section className="">
+                <h1 className="text-5xl font-semibold">Contact Us</h1>
+                <div>
+
+                </div>
+            </section>
         </main>
     </div>
   );
